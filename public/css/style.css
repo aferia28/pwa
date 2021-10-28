@@ -1,0 +1,81 @@
+body.fullscreen {
+  font-family: 'Roboto', sans-serif;
+  background-color: #587291;
+}
+.container{
+  margin-top: 25%;
+}
+.boardgame-title{
+  text-align: center;
+  color: white;
+}
+.boardgame-tab{
+  text-align: center;
+  margin-top: 15px;
+}
+
+.boardgame-tab a{
+  text-decoration: none;
+}
+
+.nickname-label{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.play-button {
+  margin-top: 15px;
+}
+
+.play-button a{
+  text-decoration: none;
+  color: white;
+}
+
+.choice-container{
+  text-align: center;
+}
+
+.choice-container#rock img,
+.choice-container#computer-rock img{
+  width: 75%;
+}
+
+.choice-container#scissors img,
+.choice-container#computer-scissors img{
+  width: 65%;
+}
+
+.choice-container img{
+  max-width: 100%;
+}
+
+.user .choice-container:hover {
+  outline: 1px solid #1ccad8;
+}
+
+.user .choice-container img:hover {
+  cursor: default;
+}
+
+.outline{
+  outline: 1px solid blue;
+}
+
+.user.content-wrapper .header{
+  text-align: left;
+}
+.user.content-wrapper .score-title{
+  text-align: left;
+}
+.computer.content-wrapper .header{
+  text-align: left;
+}
+.computer.content-wrapper .score-title{
+  text-align: left;
+}
+
+#result{
+  text-align: center;
+}
+

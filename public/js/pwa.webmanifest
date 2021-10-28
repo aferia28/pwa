@@ -1,0 +1,26 @@
+{
+  "name": "BBVA Progressive Web Application",
+  "short_name": "BBVA PWA",
+  "icons": [
+    {
+      "src": "./../images/rock.png",
+      "sizes": "840x859",
+      "type": "image/png"
+    },
+    {
+      "src": "./../images/scissors.png",
+      "sizes": "880x659",
+      "type": "image/png"
+    },
+    {
+      "src": "./../images/paper.png",
+      "sizes": "860x803",
+      "type": "image/png"
+    }
+  ],
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#587291",
+  "theme_color": "#587291"
+}
